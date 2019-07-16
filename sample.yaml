@@ -22,7 +22,7 @@ spec:
       name: stock-service-example-first
     spec:
       containers:
-      - image: ${REPO}/rest-api-go
+      - image: registry.cn-hangzhou.aliyuncs.com/kubeway/rest-api-go:20190716
         env:
           - name: RESOURCE
             value: stock
